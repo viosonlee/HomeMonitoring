@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000">
+
+    <SurfaceView
+        android:id="@+id/surfaceview_video"
+        android:layout_width="125dp"
+        android:layout_height="222dp" />
+
+   <!-- <CheckBox
+        android:id="@+id/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/surfaceview_video"
+        android:layout_alignEnd="@+id/surfaceview_video"
+        android:layout_alignRight="@+id/surfaceview_video"
+        android:button="@null"
+        android:checked="false"
+        android:text="小"
+        android:textColor="#ff111d"
+        android:textStyle="bold" />-->
+</RelativeLayout>
